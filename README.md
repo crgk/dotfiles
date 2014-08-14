@@ -8,12 +8,12 @@ Other people have done this better. But this is how I did it.
 - virtualenvs in `$HOME/dev/`. I don't use virtualenvwrapper because I'm a snob
 
 ## TODO
-- [] include oh-my-zsh?
-- [] gitconfigs?
-- [] include powerline fonts?
-- [] include solarizer?
-- [] Ubuntu support
-- [] install `chadnoster.zsh-theme`
+- [ ] include oh-my-zsh?
+- [ ] gitconfigs?
+- [ ] include powerline fonts?
+- [ ] include solarizer?
+- [ ] Ubuntu support
+- [ ] install `chadnoster.zsh-theme`
 
 
 [powerline-fonts]: https://github.com/Lokaltog/powerline-fonts
