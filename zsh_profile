@@ -2,6 +2,5 @@ export MAVEN_OPTS="-Xmx4096m -Xss1024m -XX:MaxPermSize=128m"
 
 export ANT_OPTS="-Xmx1024m"
 
-
-autoload -U zmv
-alias mmv='noglob zmv -W'
+source $HOME/.zsh_aliases
+source $HOME/.nvm/nvm.sh

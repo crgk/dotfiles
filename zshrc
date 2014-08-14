@@ -176,8 +176,6 @@ fi
 # alias gd='git diff'
 # alias ts='tig status'
 # alias delete_pyc='find . -name \*.pyc -exec rm \{\} \+'
-source $HOME/.zsh_aliases
-source $HOME/.nvm/nvm.sh
 # >>1
 
 # Functions <<1

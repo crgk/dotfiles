@@ -7,6 +7,10 @@ alias prune="bash ~/prune.sh"
 alias transplate="python ~/dev/crgk/transplate.py"
 alias fucking="sudo"
 
+# ZSH_FUN
+autoload -U zmv
+alias mmv='noglob zmv -W'
+
 # IMPORTS
 source $ALIASES/venvs.zsh
 source $ALIASES/git.zsh
