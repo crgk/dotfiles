@@ -5,7 +5,7 @@
 
 dotfiles=~/dotfiles
 backup=~/old_dotfiles
-files="vimrc zshrc zsh_profile zsh_aliases zsh_prompt"
+files="vimrc zshrc zsh_profile zsh_aliases zsh_prompt zshenv"
 
 # create dotfile backup folder
 mkdir -p $backup

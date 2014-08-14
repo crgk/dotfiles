@@ -181,19 +181,19 @@ function +pr-vcs() {
 }
 
 # Show npm information
-#function +pr-npm() {
-#    local -a v_npm
-#
-#    if [[ ${NODE_NAME}  != "" ]]; then
-#        v_npm=(
-#            ${cyan}
-#            ${NODE_NAME}
-#            ${reset}
-#        )
-#    fi
-#
-#    pr_com[npm]=${(j::)v_npm}
-#}
+function +pr-npm() {
+    local -a v_npm
+
+    if [[ ${NODE_NAME}  != "" ]]; then
+        v_npm=(
+            ${cyan}
+            ${NODE_NAME}
+            ${reset}
+        )
+    fi
+
+    pr_com[npm]=${(j::)v_npm}
+}
 
 # Show number of background jobs, or hide if none
 function +pr-jobs() {
