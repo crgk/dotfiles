@@ -7,6 +7,19 @@ Other people have done this better. But this is how I did it.
 - [Powerline-fonts][powerline-fonts] [installed][powerline-fonts-install]
 - virtualenvs in `$HOME/dev/`. I don't use virtualenvwrapper because I'm a snob
 
+## Install
+Not very portable right now; only really ready to mimic my initial setup.
+
+```sh
+git clone git@github.com:crgk/dotfiles.git ~/dotfiles
+~dotfiles/install.zsh
+```
+
+The `install.zsh` script will try to move existing dotfiles to a backup
+location, currently `$HOME/old_dotfiles`. Then it makes symlinks to the necessary
+files in `$HOME/dotfiles`.
+
+
 ## TODO
 - [ ] include oh-my-zsh?
 - [ ] gitconfigs?

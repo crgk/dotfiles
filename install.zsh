@@ -3,15 +3,15 @@
 # Make symlinks for my dotfiles
 ####################################
 
-dotfiles=~/dotfiles
-backup=~/old_dotfiles
-files="vimrc zshrc zsh_profile zsh_aliases zsh_prompt zshenv"
+dotfiles=$HOME/dotfiles
+backup=$HOME/old_dotfiles
+files="vimrc zsh_aliases zsh_profile zsh_prompt zshrc"
 
 # create dotfile backup folder
 mkdir -p $backup
 
 # move dotfiles around
 for file in $files; do
-    mv ~/.$file $backup/
-    ln -s $dotfiles/$file ~/.$file
+    mv $HOME/.$file $backup/
+    ln -s $dotfiles/$file $HOME/.$file
 done
