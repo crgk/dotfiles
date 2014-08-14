@@ -1,0 +1,13 @@
+ALIASES=~/dotfiles/aliases
+
+# GENERAL
+alias rm="rm -v"
+alias ls="ls -CHG"
+alias prune="bash ~/prune.sh"
+alias transplate="python ~/dev/crgk/transplate.py"
+alias fucking="sudo"
+
+# IMPORTS
+source $ALIASES/venvs.zsh
+source $ALIASES/git.zsh
+source $ALIASES/sky.zsh
