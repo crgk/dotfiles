@@ -1,4 +1,3 @@
-alias venvnosetests="python `which nosetests`"
 
 # SKY
 alias sky="cd ~/workspaces/wf/bigsky/z_bigsky && source ~/dev/wf/sky/bin/activate"
@@ -52,3 +51,7 @@ alias isudm="cd ~/workspaces/crgk/isudm && source ~/dev/crgk/isudm/bin/activate"
 
 alias saaserver="dev_appserver.py ."
 alias saaconsole="python /usr/local/google_appengine/remote_api_shell.py -s localhost:8080"
+
+
+alias battlecode="cd ~/workspaces/crgk/battlecode"
+alias dotfiles="cd ~/dotfiles"

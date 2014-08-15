@@ -1,3 +1,6 @@
+
+alias venvnosetests="python `which nosetests`"
+
 myconsole()
 {
     python tools/remote_api/console.py --servername=${1:-localhost:8001} --appid=${2:-big-sky}
