@@ -35,6 +35,9 @@ alias vendor="cd ~/workspaces/wf/wf-js-vendor"
 # WF-SDK
 alias sdk="cd ~/workspaces/wf/wf-sdk && source ~/dev/wf/sdk/bin/activate"
 
+# OAUTHTWO
+alias oauthtwo-pyserver="cd ~/workspaces/wf/wf-oauthtwo-pyserver && source ~/dev/wf/oauthtwo-pyserver/bin/activate"
+
 # API-TESTING
 alias api-testing="cd ~/workspaces/wf/api-testing && source ~/dev/wf/api-testing/bin/activate"
 
