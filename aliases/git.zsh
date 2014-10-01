@@ -13,10 +13,10 @@ mypr ()
 complete -o bashdefault -o default -o nospace -F _git_pr mypr 2>/dev/null
 
 alias skypr="mypr bigsky"
-alias mastersky="skypr WebFilings"
+alias mastersky="skypr Workiva"
 alias wbpr="mypr web-bones chadknight-wf"
-alias masterbones="mypr web-bones WebFilings"
+alias masterbones="mypr web-bones Workiva"
 alias rapr="mypr richapps chadknight-wf"
-alias masterra="mypr richapps WebFilings"
+alias masterra="mypr richapps Workiva"
 alias p34pr="mypr selenium chadknight-wf staging"
-alias apipr="mypr api-testing WebFilings master"
+alias apipr="mypr api-testing Workiva master"
