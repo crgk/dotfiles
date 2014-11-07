@@ -6,6 +6,7 @@ alias ls="ls -CHG"
 alias prune="bash ~/prune.sh"
 alias transplate="python ~/dev/crgk/transplate.py"
 alias fucking="sudo"
+alias virtualenv="virtualenv -p /usr/bin/python2.7"
 
 # ZSH_FUN
 autoload -U zmv

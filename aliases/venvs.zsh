@@ -1,4 +1,3 @@
-
 # SKY
 alias sky="cd ~/workspaces/wf/bigsky/z_bigsky && source ~/dev/wf/sky/bin/activate"
 
@@ -36,6 +35,7 @@ alias vendor="cd ~/workspaces/wf/wf-js-vendor"
 alias sdk="cd ~/workspaces/wf/wf-sdk && source ~/dev/wf/sdk/bin/activate"
 
 # OAUTHTWO
+alias oauthtwo="cd ~/workspaces/wf/wf-oauthtwo && source ~/dev/wf/oauthtwo/bin/activate"
 alias oauthtwo-pyserver="cd ~/workspaces/wf/wf-oauthtwo-pyserver && source ~/dev/wf/oauthtwo-pyserver/bin/activate"
 
 # API-TESTING
