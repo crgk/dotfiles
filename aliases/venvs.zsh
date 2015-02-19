@@ -25,6 +25,9 @@ alias wcode="cd ~/workspaces/wf/wcode && source ~/dev/wf/wcode/bin/activate"
 alias p34="cd ~/workspaces/wf/P34/Project34 && source ~/dev/wf/p34/bin/activate"
 alias p34-start="p34 && python /Users/chadknight/workspaces/wf/P34/Project34/start.py --dev --no-focus"
 
+# IDENTITY
+alias identity="cd ~/workspaces/wf/Identity"
+
 # AUTHMODEL
 alias authmodel="cd ~/workspaces/wf/authmodel && source ~/dev/wf/authmodel/bin/activate"
 
@@ -35,7 +38,7 @@ alias vendor="cd ~/workspaces/wf/wf-js-vendor"
 alias sdk="cd ~/workspaces/wf/wf-sdk && source ~/dev/wf/sdk/bin/activate"
 
 # OAUTHTWO
-alias oauthtwo="cd ~/workspaces/wf/wf-oauthtwo && source ~/dev/wf/oauthtwo/bin/activate"
+alias iam="cd ~/workspaces/wf/py-iam-services && source ~/dev/wf/iam/bin/activate"
 alias oauthtwo-pyserver="cd ~/workspaces/wf/wf-oauthtwo-pyserver && source ~/dev/wf/oauthtwo-pyserver/bin/activate"
 
 # API-TESTING
