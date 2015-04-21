@@ -16,12 +16,13 @@ myreset()
     sky
     mv tools/bulkdata/accounts.csv tools/bulkdata/accounts.csv.bak
     cp ../my_accounts.csv tools/bulkdata/accounts.csv
-    python tools/erase_reset_data.py --admin=chad.knight@workiva.com --password=${1:-W3bfilings$}
+    python tools/erase_reset_data.py --admin=chad.knight@workiva.com --password=${1:-W3bfilings$} --use_sqlite
     mv tools/bulkdata/accounts.csv.bak tools/bulkdata/accounts.csv    
 }
 
 alias skytest="python manage.py test"
-alias skyserver="python manage.py runserver localhost:8001"
+alias skyserver="python manage.py runserver localhost:8001 --use_sqlite"
+alias skymodule="/usr/local/google_appengine/dev_appserver.py --datastore_path=../datastore/django_dev~big-sky.datastore dispatch.yaml bigskyf1.yaml bigskyf4.yaml app.yaml ../../py-iam-services/iam-services.yaml --port 8080"
 alias skyreset="myreset"
 alias skyconsole="myconsole"
 alias skydeploy="mydeploy"
