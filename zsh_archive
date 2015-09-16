@@ -1,3 +1,8 @@
 ARCHIVING=~/dotfiles/archiving
+source $ARCHIVING/archive.zsh
 
-source $ARCHIVING/screenshots.zsh
+SCREENSHOTS_DIR=${HOME}/Pictures/Screenshots
+archive $SCREENSHOTS_DIR screenshots $SCREENSHOTS_DIR/*.png
+
+DOWNLOADS_DIR=~/Downloads
+archive $DOWNLOADS_DIR downloads $DOWNLOADS_DIR/*(.)
