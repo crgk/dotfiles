@@ -5,7 +5,7 @@
 
 dotfiles=$HOME/dotfiles
 backup=$HOME/old_dotfiles
-files=("vimrc" "work_exports" "zsh_aliases" "zsh_profile" "zsh_prompt" "zshrc")
+files=("vimrc" "work_exports" "zsh_aliases" "zsh_archive" "zsh_profile" "zsh_prompt" "zshrc")
 
 # remove existing backup folder because who gives a fuck
 echo "Removing backup files at $backup"

@@ -22,7 +22,7 @@ myreset()
 
 alias skytest="python manage.py test"
 alias skyserver="python manage.py runserver localhost:8001 --use_sqlite"
-alias skymodule="/usr/local/google_appengine/dev_appserver.py --datastore_path=../datastore/django_dev~big-sky.datastore dispatch.yaml bigskyf1.yaml bigskyf4.yaml app.yaml ../../py-iam-services/iam-services.yaml --port 8080"
+alias skymodule="/usr/local/google_appengine/dev_appserver.py --datastore_path=../datastore/django_dev~big-sky.datastore dispatch.yaml validationf1.yaml bigskyf1.yaml bigskyf4.yaml app.yaml ../../py-iam-services/iam-services.yaml --port 8080"
 alias skyreset="myreset"
 alias skyconsole="myconsole"
 alias skydeploy="mydeploy"

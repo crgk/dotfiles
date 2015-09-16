@@ -2,6 +2,9 @@ source $HOME/.work_exports
 source $HOME/.zsh_aliases
 source $HOME/.nvm/nvm.sh
 
+# kick off archiving
+source $HOME/.zsh_archive
+
 # after upgrading openssh, brew told me to do this
 eval $(ssh-agent)
 function cleanup {

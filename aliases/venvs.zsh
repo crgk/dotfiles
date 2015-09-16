@@ -31,6 +31,9 @@ alias identity="cd ~/workspaces/wf/Identity"
 # AUTHMODEL
 alias authmodel="cd ~/workspaces/wf/authmodel && source ~/dev/wf/authmodel/bin/activate"
 
+# AUDIT
+alias wkaudit="cd ~/workspaces/wf/py-audit-services && source ~/dev/wf/audit/bin/activate"
+
 # WF-JS-VENDOR
 alias vendor="cd ~/workspaces/wf/wf-js-vendor"
 
@@ -39,7 +42,7 @@ alias sdk="cd ~/workspaces/wf/wf-sdk && source ~/dev/wf/sdk/bin/activate"
 
 # OAUTHTWO
 alias iam="cd ~/workspaces/wf/py-iam-services && source ~/dev/wf/iam/bin/activate"
-alias oauthtwo-pyserver="cd ~/workspaces/wf/wf-oauthtwo-pyserver && source ~/dev/wf/oauthtwo-pyserver/bin/activate"
+alias oauthtwo="cd ~/workspaces/wf/wf-oauthtwo-pyserver && source ~/dev/wf/oauthtwo-pyserver/bin/activate"
 
 # API-TESTING
 alias api-testing="cd ~/workspaces/wf/api-testing && source ~/dev/wf/api-testing/bin/activate"
@@ -48,7 +51,7 @@ alias api-testing="cd ~/workspaces/wf/api-testing && source ~/dev/wf/api-testing
 alias mailer="cd ~/workspaces/wf/wf-py-mailer && source ~/dev/wf/mailer/bin/activate"
 
 # BLOG
-alias blog="cd ~/workspaces/wf/wf-dev-blog && source ~/dev/wf/blog/bin/activate"
+alias blog="cd ~/workspaces/wf/w-dev-blog && source ~/dev/wf/blog/bin/activate"
 
 # CRGK
 alias crgk="cd ~/workspaces/crgk && source ~/dev/crgk/crgk/bin/activate"
@@ -58,6 +61,7 @@ alias isudm="cd ~/workspaces/crgk/isudm && source ~/dev/crgk/isudm/bin/activate"
 alias saaserver="dev_appserver.py ."
 alias saaconsole="python /usr/local/google_appengine/remote_api_shell.py -s localhost:8080"
 
+alias instinct="cd ~/workspaces/crgk/instinct && source ~/dev/crgk/instinct/bin/activate"
 
 alias battlecode="cd ~/workspaces/crgk/battlecode"
 alias dotfiles="cd ~/dotfiles"

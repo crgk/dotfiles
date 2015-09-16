@@ -1,0 +1,4 @@
+export MAVEN_OPTS="-Xmx4096m -Xss1024m -XX:MaxPermSize=128m"
+export ANT_OPTS="-Xmx1024m"
+
+export GOPATH=$HOME/workspaces/go
