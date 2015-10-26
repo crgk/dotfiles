@@ -5,6 +5,9 @@ source $HOME/.nvm/nvm.sh
 # kick off archiving
 source $HOME/.zsh_archive
 
+# source newpy file
+source ~/dotfiles/newpy.zsh
+
 # after upgrading openssh, brew told me to do this
 eval $(ssh-agent)
 function cleanup {
