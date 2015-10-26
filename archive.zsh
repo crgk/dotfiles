@@ -16,11 +16,6 @@ function archive {
     yesterday="$(date -v-1d +%Y.%m.%d)"
     yesterday_dir=${target}/archive/${yesterday}
 
-    if [ ! -d "${~pattern}" ];
-        then
-            print "archive: no matches found for $pattern";
-            return 0;
-    fi
     if [ ! -d "$yesterday_dir" ];
         then
             print "archive: archiving past $name...";

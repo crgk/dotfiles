@@ -32,7 +32,7 @@ alias identity="cd ~/workspaces/wf/Identity"
 alias authmodel="cd ~/workspaces/wf/authmodel && source ~/dev/wf/authmodel/bin/activate"
 
 # AUDIT
-alias wkaudit="cd ~/workspaces/wf/py-audit-services && source ~/dev/wf/audit/bin/activate"
+alias audit_services="cd ~/workspaces/wf/py-audit-services && source ~/dev/wf/audit/bin/activate"
 
 # WF-JS-VENDOR
 alias vendor="cd ~/workspaces/wf/wf-js-vendor"
