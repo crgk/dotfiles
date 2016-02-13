@@ -13,7 +13,7 @@ function archive {
     name=$2
     pattern=$3
 
-    yesterday="$(date -v-1d +%Y.%m.%d)"
+    yesterday="$(date -v-1d +%Y/%m/%d)"
     yesterday_dir=${target}/archive/${yesterday}
 
     if [ ! -d "$yesterday_dir" ];

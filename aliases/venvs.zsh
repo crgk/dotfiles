@@ -54,7 +54,7 @@ alias mailer="cd ~/workspaces/wf/wf-py-mailer && source ~/dev/wf/mailer/bin/acti
 alias blog="cd ~/workspaces/wf/w-dev-blog && source ~/dev/wf/blog/bin/activate"
 
 # CRGK
-alias crgk="cd ~/workspaces/crgk && source ~/dev/crgk/crgk/bin/activate"
+alias crgk="cd ~/workspaces/crgk/crgk.github.io"
 alias saa="cd ~/workspaces/crgk/saangular && source ~/dev/crgk/saa/bin/activate"
 alias isudm="cd ~/workspaces/crgk/isudm && source ~/dev/crgk/isudm/bin/activate"
 
@@ -70,5 +70,10 @@ alias dotfiles="cd ~/dotfiles"
 
 alias swear-jar="cd /Users/chadknight/workspaces/crgk/swear-jar && source /Users/chadknight/dev/crgk/swear-jar/bin/activate"
 
-alias iam-client="cd . && source /Users/chadknight/dev/wf/iam-client/bin/activate"
+
+alias iam-client="cd /Users/chadknight/workspaces/wf/py-iam-client && source /Users/chadknight/dev/wf/iam-client/bin/activate"
+
+alias funday="cd /Users/chadknight/workspaces/wf/funday && source /Users/chadknight/dev/wf/funday/bin/activate"
+
+alias data_science="cd /Users/chadknight/workspaces/wf/data_science && source /Users/chadknight/dev/wf/data_science/bin/activate"
 
