@@ -20,7 +20,7 @@ function archive {
         then
             print "archive: archiving past $name...";
             mkdir -p $yesterday_dir;
-            mv -- ${~pattern} ${yesterday_dir};
+            mv ${~pattern} ${yesterday_dir};
         else
             print "archive: past $name already archived: $yesterday_dir";
     fi

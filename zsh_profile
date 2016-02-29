@@ -8,6 +8,8 @@ source $HOME/.zsh_archive
 # source newpy file
 source ~/dotfiles/newpy.zsh
 
+source ~/dotfiles/pr.zsh
+
 # after upgrading openssh, brew told me to do this
 eval $(ssh-agent)
 function cleanup {

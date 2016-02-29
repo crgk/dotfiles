@@ -13,7 +13,7 @@ alias mmv='noglob zmv -W'
 
 # IMPORTS
 source $ALIASES/venvs.zsh
-source $ALIASES/git.zsh
 source $ALIASES/sky.zsh
 source $ALIASES/crgk.zsh
 source $ALIASES/docker.zsh
+
