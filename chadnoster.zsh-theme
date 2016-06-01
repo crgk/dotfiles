@@ -175,6 +175,10 @@ prompt_dollar() {
   prompt_segment blue black $
 }
 
+prompt_time() {
+  prompt_segment magenta black "%D %T"
+}
+
 ## Main prompt
 build_prompt() {
   RETVAL=$?
@@ -183,6 +187,7 @@ build_prompt() {
   prompt_dir
   prompt_git
   prompt_hg
+  prompt_time
   prompt_newline
   prompt_virtualenv
   prompt_dollar

@@ -39,8 +39,8 @@ set clipboard=unnamed
 let NERDTreeIgnore=['\.pyc$', '\~$']
 map <C-n> :NERDTreeToggle<CR>
 
-" Line Numbering
-set nu
+" Relative Line Numbering
+set rnu
 
 " Pane options
 set splitbelow

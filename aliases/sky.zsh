@@ -1,17 +1,17 @@
 
 alias venvnosetests="python `which nosetests`"
 
-myconsole()
+skyconsole()
 {
     python tools/remote_api/console.py --servername=${1:-localhost:8001} --appid=${2:-big-sky}
 }
 
-mydeploy()
+skydeploy()
 {
     /usr/local/google_appengine/appcfg.py --oauth2 -A ${1:-wf-richapps} -v update . -V ${2:-chad}
 }
 
-myreset()
+skyreset()
 {
     sky
     mv tools/bulkdata/accounts.csv tools/bulkdata/accounts.csv.bak
@@ -21,11 +21,7 @@ myreset()
 }
 
 alias skytest="python manage.py test"
-alias skyserver="python manage.py runserver localhost:8001 --use_sqlite"
+alias skyserver="/usr/local/google_appengine/dev_appserver.py --datastore_path=../datastore/django_dev~big-sky.datastore app.yaml --port 8080 --automatic_restart no"
 alias skymodule="/usr/local/google_appengine/dev_appserver.py --datastore_path=../datastore/django_dev~big-sky.datastore dispatch.yaml validationf1.yaml bigskyf1.yaml bigskyf4.yaml app.yaml ../../py-iam-services/iam-services.yaml --port 8080 --automatic_restart no"
-alias skyreset="myreset"
-alias skyconsole="myconsole"
-alias skydeploy="mydeploy"
-alias skyapi="python tools/remote_api/setup_api_testing.py --api_testing_root /Users/chadknight/workspaces/wf/api-testing"
 
 alias wfconsole="myconsole wf-richapps.appspot.com s~wf-richapps"
