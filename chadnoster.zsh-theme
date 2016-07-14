@@ -172,7 +172,7 @@ prompt_newline() {
 }
 
 prompt_dollar() {
-  prompt_segment blue black $
+  prompt_segment blue black 𝞴 
 }
 
 prompt_time() {

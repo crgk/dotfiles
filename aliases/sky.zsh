@@ -1,4 +1,5 @@
 
+alias ddev="pub run dart_dev"
 alias venvnosetests="python `which nosetests`"
 
 skyconsole()

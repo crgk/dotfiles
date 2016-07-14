@@ -9,15 +9,21 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 " Plugin 'tpope/vim-fugitive'
+Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-" Plugin 'kien/ctrlp.vim'
+Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 " Plugin 'vim-scripts/indentpython.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'vim-scripts/vim-auto-save'
+Plugin 'tpope/vim-surround'
+Plugin 'jiangmiao/auto-pairs', {'rtp': 'plugin/auto-pairs.vim'}
+Plugin 'dart-lang/dart-vim-plugin'
 
+Plugin 'Workiva/frugal', {'rtp': 'contrib/frugal.vim'}
 
 call vundle#end()
 
@@ -42,6 +48,9 @@ map <C-n> :NERDTreeToggle<CR>
 " Relative Line Numbering
 set rnu
 
+" Scroll Offset
+set scrolloff=6
+
 " Pane options
 set splitbelow
 set splitright
@@ -54,3 +63,19 @@ set shiftwidth=4
 " Smart Indent
 filetype indent on
 set smartindent
+
+" Soft wrap
+set wrap
+set linebreak
+let &showbreak=' >> '
+
+" Vim-Tmux-Navigator
+" autosave when leaving a vim split
+let g:tmux_navigator_save_on_switch = 1
+
+" NERDTree
+let NERDTreeShowHidden=1
+
+" Vim Autosave
+let g:auto_save = 1  " enable AutoSave on Vim startup
+let g:auto_save_in_insert_mode = 0  " do not save while in insert mod

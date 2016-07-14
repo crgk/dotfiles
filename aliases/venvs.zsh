@@ -85,3 +85,5 @@ alias iam-test="cd /Users/chadknight/workspaces/wf/py-iam-services && source /Us
 
 alias pypy-work="cd /Users/chadknight/workspaces/go/src/github.com/Workiva/workspaces-api/fixtures && source /Users/chadknight/dev/wf/pypy-work/bin/activate"
 
+alias ws-gen="cd /Users/chadknight/workspaces/wf/workspaces-api/scripts && source /Users/chadknight/dev/wf/ws-gen/bin/activate"
+
