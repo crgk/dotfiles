@@ -5,3 +5,5 @@ grulp () {
 		gulp $*
 	fi
 }
+
+alias git-profile="source /usr/local/bin/git-profile.sh"

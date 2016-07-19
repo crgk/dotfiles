@@ -8,7 +8,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-" Plugin 'tpope/vim-fugitive'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
@@ -16,12 +15,12 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
-" Plugin 'vim-scripts/indentpython.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-scripts/vim-auto-save'
 Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs', {'rtp': 'plugin/auto-pairs.vim'}
 Plugin 'dart-lang/dart-vim-plugin'
+" Plugin 'Yggdroot/indentLine'
 
 Plugin 'Workiva/frugal', {'rtp': 'contrib/frugal.vim'}
 
@@ -47,6 +46,10 @@ map <C-n> :NERDTreeToggle<CR>
 
 " Relative Line Numbering
 set rnu
+
+" Visible whitespace
+set listchars=space:·
+set list
 
 " Scroll Offset
 set scrolloff=6
