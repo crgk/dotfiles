@@ -48,7 +48,7 @@ map <C-n> :NERDTreeToggle<CR>
 set rnu
 
 " Visible whitespace
-set listchars=space:·
+set listchars=space:·,tab:»·
 set list
 
 " Scroll Offset
@@ -70,7 +70,7 @@ set smartindent
 " Soft wrap
 set wrap
 set linebreak
-let &showbreak=' >> '
+let &showbreak=' »» '
 
 " Vim-Tmux-Navigator
 " autosave when leaving a vim split
