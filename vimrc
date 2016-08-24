@@ -20,8 +20,6 @@ Plugin 'vim-scripts/vim-auto-save'
 Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs', {'rtp': 'plugin/auto-pairs.vim'}
 Plugin 'dart-lang/dart-vim-plugin'
-" Plugin 'Yggdroot/indentLine'
-
 Plugin 'Workiva/frugal', {'rtp': 'contrib/frugal.vim'}
 
 call vundle#end()
@@ -43,6 +41,9 @@ set clipboard=unnamed
 " NERDTree settings
 let NERDTreeIgnore=['\.pyc$', '\~$']
 map <C-n> :NERDTreeToggle<CR>
+
+" Highlight search results by default
+set hlsearch
 
 " Relative Line Numbering
 set rnu

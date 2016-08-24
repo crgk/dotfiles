@@ -26,3 +26,7 @@ alias skyserver="/usr/local/google_appengine/dev_appserver.py --datastore_path=.
 alias skymodule="/usr/local/google_appengine/dev_appserver.py --datastore_path=../datastore/django_dev~big-sky.datastore dispatch.yaml validationf1.yaml bigskyf1.yaml bigskyf4.yaml app.yaml ../../py-iam-services/iam-services.yaml --port 8080 --automatic_restart no"
 
 alias wfconsole="myconsole wf-richapps.appspot.com s~wf-richapps"
+
+alias repub='pubclean; pub get $@'
+alias pubclean='rm -r .pub/ && echo "Removed .pub/"; rm -r packages/ && echo "Removed packages/"; rm .packages && echo "Removed .packages"; pubcleanlock'
+alias pubcleanlock='git ls-files pubspec.lock --error-unmatch &>/dev/null && echo "Not removing pubspec.lock - it is tracked" || (rm pubspec.lock && echo "Removed pubspec.lock")'
