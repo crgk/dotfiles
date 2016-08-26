@@ -70,6 +70,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # fi
 export EDITOR='vim'
 
+# Use vim keybindings
+bindkey -v
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
