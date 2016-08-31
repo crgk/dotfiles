@@ -15,6 +15,5 @@ alias mmv='noglob zmv -W'
 source $ALIASES/venvs.zsh
 source $ALIASES/sky.zsh
 source $ALIASES/crgk.zsh
-source $ALIASES/docker.zsh
 source $ALIASES/aws.zsh
 
