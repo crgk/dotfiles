@@ -68,6 +68,8 @@ filetype indent on
 set smartindent
 
 " Soft wrap
+set breakindent
+set breakindentopt='sbr'
 set wrap
 set linebreak
 let &showbreak=' »» '
