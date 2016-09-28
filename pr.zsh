@@ -1,4 +1,4 @@
-# Git Utilities and Aliases
+# Git Utility
 
 function pr() {
   local branch="$(git rev-parse --abbrev-ref HEAD)"

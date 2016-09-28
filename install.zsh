@@ -6,7 +6,7 @@
 
 dotfiles=$HOME/dotfiles
 backup=$HOME/old_dotfiles
-files=("vimrc" "work_exports" "zsh_aliases" "zsh_archive" "zsh_profile" "zsh_prompt" "zshrc")
+files=("vimrc" "zsh_aliases" "zsh_archive" "zsh_profile" "zsh_prompt" "zshrc")
 
 # move dotfiles around
 for file in $files; do

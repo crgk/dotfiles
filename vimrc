@@ -69,10 +69,10 @@ set smartindent
 
 " Soft wrap
 set breakindent
-set breakindentopt='sbr'
 set wrap
 set linebreak
 let &showbreak=' »» '
+let &breakindentopt='sbr'
 
 " Vim-Tmux-Navigator
 " autosave when leaving a vim split
