@@ -176,7 +176,7 @@ prompt_dollar() {
 }
 
 prompt_time() {
-  prompt_segment magenta black "%D %T"
+  prompt_segment magenta black "%D{%Y-%m-%d %H:%M:%S}"
 }
 
 ## Main prompt

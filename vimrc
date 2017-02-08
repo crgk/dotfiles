@@ -21,18 +21,21 @@ Plugin 'jiangmiao/auto-pairs', {'rtp': 'plugin/auto-pairs.vim'}
 Plugin 'dart-lang/dart-vim-plugin'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'Workiva/frugal', {'rtp': 'contrib/frugal.vim'}
+Plugin 'aklt/plantuml-syntax'
 
 call vundle#end()
 
 filetype plugin indent on
 syntax on
+set background=dark
+colorscheme solarized
 
 " split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-" backspace stops working because it's colliding with <C-H> here,
+" backspace stops working because it's colliding with <C-H> here
 set backspace=indent,eol,start
 
 " get access to system clipboard
@@ -41,6 +44,9 @@ set clipboard=unnamed
 " NERDTree settings
 let NERDTreeIgnore=['\.pyc$', '\~$']
 map <C-n> :NERDTreeToggle<CR>
+
+" Set wildignore to skip things I never care about, specifically for CtrlP
+set wildignore+=*/tmp/*,*.so,*.swp,*/target/*,*.pyc
 
 " Highlight search results by default
 set hlsearch
