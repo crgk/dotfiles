@@ -55,6 +55,7 @@ set hlsearch
 set rnu
 
 " Visible whitespace
+hi SpecialKey ctermbg=None
 set listchars=space:·,tab:»·
 set list
 
@@ -72,7 +73,6 @@ set shiftwidth=4
 
 " Smart Indent
 filetype indent on
-set smartindent
 
 " Soft wrap
 set breakindent
