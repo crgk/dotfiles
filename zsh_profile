@@ -9,6 +9,7 @@ source ~/dotfiles/newpy.zsh
 
 source ~/dotfiles/pr.zsh
 
+source ~/dotfiles/findreplace.zsh
 
 # export some crap
 export GOPATH=$HOME/workspaces/go
