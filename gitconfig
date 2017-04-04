@@ -1,0 +1,23 @@
+[user]
+    name = Chad Knight
+    signingkey = C7E528A2309C4B0B
+    email = chad.knight@workiva.com
+[core]
+    excludesfile = /Users/chadknight/.gitignore_chadknight
+    editor = vim
+[alias]
+    unstage = reset HEAD --
+    squash = rebase master -i --autosquash
+    pr = push origin & !pr
+[push]
+    default = current
+[diff]
+    algorithm = patience
+[credential]
+    helper = osxkeychain
+[color]
+    ui = true
+[url "git@github.com:"]
+    insteadOf = https://github.com
+[commit]
+    gpgsign = true
