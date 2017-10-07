@@ -22,6 +22,7 @@ Plugin 'dart-lang/dart-vim-plugin'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'Workiva/frugal', {'rtp': 'contrib/frugal.vim'}
 Plugin 'aklt/plantuml-syntax'
+Plugin 'akhaku/vim-java-unused-imports'
 
 call vundle#end()
 
@@ -65,6 +66,9 @@ set scrolloff=6
 " Pane options
 set splitbelow
 set splitright
+
+" Highlight current line
+set cursorline
 
 " Tabs
 set expandtab

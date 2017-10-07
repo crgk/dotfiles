@@ -87,3 +87,11 @@ alias pypy-work="cd /Users/chadknight/workspaces/go/src/github.com/Workiva/works
 
 alias ws-gen="cd /Users/chadknight/workspaces/wf/workspaces-api/scripts && source /Users/chadknight/dev/wf/ws-gen/bin/activate"
 
+alias python-messaging="cd /Users/chadknight/workspaces/wf/messaging-frontend/tools/python-client && source ./python-messaging/bin/activate"
+
+alias wsload="cd /Users/chadknight/workspaces/wf/workspaces-api/loadtest && source /Users/chadknight/dev/wf/wsload/bin/activate"
+
+alias wuri="cd /Users/chadknight/workspaces/wf/wuri-sdk/py && source /Users/chadknight/dev/wf/wuri/bin/activate"
+
+alias bonds="cd /Users/chadknight/workspaces/crgk/bonds && source /Users/chadknight/dev/wf/bonds/bin/activate"
+

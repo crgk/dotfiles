@@ -1,7 +1,7 @@
 source ~/dotfiles/archive.zsh
 
 SCREENSHOTS_DIR=${HOME}/Pictures/Screenshots
-archive $SCREENSHOTS_DIR screenshots $SCREENSHOTS_DIR/*.png
+archive $SCREENSHOTS_DIR screenshots *.png
 
 DOWNLOADS_DIR=~/Downloads
-archive $DOWNLOADS_DIR downloads $DOWNLOADS_DIR/*(.)
+archive $DOWNLOADS_DIR downloads *(.)

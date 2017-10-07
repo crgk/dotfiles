@@ -11,9 +11,13 @@ source ~/dotfiles/pr.zsh
 
 source ~/dotfiles/findreplace.zsh
 
-# export some crap
+# add some paths to PATH
+export HSPATH=$HOME/.local/bin
+# go is the worst
 export GOPATH=$HOME/workspaces/go
-export PATH=$PATH:$GOPATH/bin
+# apparently Apple has deprecated openssl and I need to do this?
+export SSLPATH=/usr/local/opt/openssl/bin
+export PATH=$SSLPATH:$PATH:$HSPATH:$GOPATH/bin
 
 
 # after upgrading openssh, brew told me to do this
