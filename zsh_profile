@@ -2,7 +2,7 @@ source $HOME/.zsh_aliases
 source $HOME/.nvm/nvm.sh
 
 # kick off archiving
-source $HOME/.zsh_archive
+source $HOME/.zsh_archive > /dev/null
 
 # source newpy file
 source ~/dotfiles/newpy.zsh
@@ -21,7 +21,7 @@ export PATH=$SSLPATH:$PATH:$HSPATH:$GOPATH/bin
 
 
 # after upgrading openssh, brew told me to do this
-eval $(ssh-agent)
+eval $(ssh-agent) > /dev/null
 function cleanup {
     echo "Killing SSH-Agent"
     kill -9 $SSH_AGENT_PID
