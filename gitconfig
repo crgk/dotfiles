@@ -9,6 +9,7 @@
     unstage = reset HEAD --
     squash = rebase master -i --autosquash
     touch = "!t() { touch $1 && git add $1; }; t"
+    wip = commit -m "wip"
 [push]
     default = current
 [diff]
