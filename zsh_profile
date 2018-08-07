@@ -11,6 +11,8 @@ source ~/dotfiles/pr.zsh
 
 source ~/dotfiles/findreplace.zsh
 
+source ~/dotfiles/weighin.zsh
+
 # add some paths to PATH
 export HSPATH=$HOME/.local/bin
 # go is the worst
